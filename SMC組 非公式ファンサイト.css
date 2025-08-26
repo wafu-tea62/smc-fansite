@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+
+/* 大見出し */
+.s{
+  color: #EEFFFF;
+}
+.m{
+  color: #F7265A;
+}
+.c{
+  color: #B9ADB9;
+}
+.gumi{
+  color: white;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  padding: 135px;
+}
+header {
+  background-image: url(https://lh3.googleusercontent.com/d/1i4ZbLgXTCPz4xCVXnpKkaqoTWhi7YOz6 );
+  background-size: cover;
+}
+
+body {
+  background-color: ivory;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-left: 30px;
+  border-radius: 30px;
+}
+
+
+h3 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+
+.p1 {
+  padding: 10px;
+}
+
+
+.kao {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+
+.content {
+  display: flex;
+  gap: 10px;
+}
+.aaa {
+  align-items: center
+}
+
+
+
+/* スライダ―のCSS */
+.slider {
+  width: 640px;
+  height: 360px;
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  border: 5px solid #c0c0c0;
+}
+.slide {
+  object-fit: cover;
+  width: 620px;
+}
+
+
+/* ボタンのCSS */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  border-radius: 50%;
+}
+ul li a img {
+  border-radius: 50%;
+  width: 85px;
+}
+
+
+/* スライダ―2のCSS */
+.slider2 {
+    width: 640px;
+    height: 360px;
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    border: 5px solid #c0c0c0;
+}
+.slide2 {
+    object-fit: cover;
+    width: 620px;
+}
