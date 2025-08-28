@@ -23,6 +23,11 @@ header {
   background-image: url(https://lh3.googleusercontent.com/d/1i4ZbLgXTCPz4xCVXnpKkaqoTWhi7YOz6 );
   background-size: cover;
 }
+@media ( max-width: 600px ) {
+  header {
+    Background-size: 200px
+  }
+}_
 
 body {
   background-color: ivory;
