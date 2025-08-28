@@ -15,18 +15,13 @@
   color: white;
 }
 h1 {
-  font-size: 70px;
+  font-size: 6%;
   text-align: center;
-  padding: 135px;
+  padding: 13%;
 }
 header {
   background-image: url(https://lh3.googleusercontent.com/d/1i4ZbLgXTCPz4xCVXnpKkaqoTWhi7YOz6 );
   background-size: cover;
-}
-@media ( max-width: 900px ) {
-  h1 {
-    font-size: 40px.
-  }
 }
 
 
@@ -90,6 +85,22 @@ a {
   width: 620px;
 }
 
+/* スマホ スライダーのCSS */
+@media (max-width: 767px;){
+  .slider {
+  width: 352px;
+  height: 198px;
+  display: block;
+  overflow-x: auto;
+  gap: 15px;
+  border: 5px solid #c0c0c0;
+ }
+ .slide {
+  object-fit: cover;
+  width: 352px;
+ }
+}
+  
 
 /* ボタンのCSS */
 ul {
