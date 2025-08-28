@@ -17,11 +17,11 @@
 h1 {
   font-size: 70px;
   text-align: center;
-  padding: 95%;
+  padding: 135px;
 }
 header {
   background-image: url(https://lh3.googleusercontent.com/d/1i4ZbLgXTCPz4xCVXnpKkaqoTWhi7YOz6 );
-  background-size: 95%;
+  background-size: cover;
 }
 
 body {
